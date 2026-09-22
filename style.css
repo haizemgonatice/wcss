@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f5f9;
+    color: #333333;
+}
+
+body > table:first-child {
+    background-color: #001f3f;
+    color: white;
+}
+
+h1 {
+    color: white;
+    background-color: #003366;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+body > table:first-child p {
+    color: #dbe9f6;
+}
+
+/* Headings */
+h2 {
+    color: #003366;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: #00509e;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 3px solid #003366;
+}
+
+body > table:nth-of-type(2) {
+    background-color: #ffffff;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0074cc;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
+#gallery img {
+    border: 3px solid #003366;
+    border-radius: 8px;
+}
+
+/* Tables */
+#services table,
+#packages table {
+    background-color: white;
+}
+
+#services th,
+#packages th {
+    background-color: #003366;
+    color: white;
+    padding: 12px;
+}
+
+#services td,
+#packages td {
+    border: 1px solid #8fa9bf;
+    padding: 12px;
+}
+
+#services tr:hover,
+#packages tr:hover {
+    background-color: #e6f0fa;
+}
+
+#gallery td {
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #557a9e;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="reset"] {
+    background-color: #b8cce0;
+    color: #001f3f;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #001f3f;
+}
+
+input[type="reset"]:hover {
+    background-color: #8fa9bf;
+}
+
+body > table:last-child {
+    background-color: #001f3f;
+    color: white;
+}
+
+body > table:last-child p {
+    margin: 5px;
+}
+
+@media (max-width: 700px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    input,
+    select,
+    textarea {
+        max-width: 100%;
+    }
+}
